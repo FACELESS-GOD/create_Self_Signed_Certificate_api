@@ -57,8 +57,8 @@ router.get('/', function(req, res, next) {
     var certificate_pem = pki.certificateToPem(certificate);
 
     // Writing file to a 
-    let path_to_certificate = 'D:\\Coding\\projects\\DemoSelfSignedCertificate\\Certificate\\cert.pem';
-    let path_to_zip = 'D:\\Coding\\projects\\DemoSelfSignedCertificate\\Certificate\\certificateComppressed.zip';
+    let path_to_certificate = 'path to the certificate with .pem extention';
+    let path_to_zip = 'path to the zip file with .zip extention';
 
     // Writing the certificate to a file 
 
